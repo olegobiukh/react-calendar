@@ -69,6 +69,7 @@ class EventForm extends Component {
         <input
           maxLength="30"
           className={`table-event__input`}
+          style={{fontSize: '15px', padding: '5px'}}
           value={title}
           onChange={event => this.handleChange("title", event.target.value)}
         />
