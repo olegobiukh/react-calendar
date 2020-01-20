@@ -1,0 +1,31 @@
+.right-body {
+  padding: 20px 20px 150px;
+  background-color: #f0f0f7;
+  &__title {
+    text-transform: capitalize;
+  }
+}
+
+.calendar {
+  &__title {
+    text-transform: capitalize;
+  }
+  &__container {
+    background: #fff;
+    padding: 20px;
+  }
+  &__toolbar {
+    &-bottom {
+      margin-top: 10px;
+    }
+    &-title {
+      text-align: center;
+      
+    }
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

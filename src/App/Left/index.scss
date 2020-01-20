@@ -1,0 +1,17 @@
+@import '../../main.scss'; 
+
+.left {
+  width: 200px;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 4.2px;
+  &__wrapper {
+    height: 50px;
+    padding: 10px 30px;
+    background-color: darken($blue, 3%);
+  }
+}

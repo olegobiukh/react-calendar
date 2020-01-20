@@ -1,0 +1,16 @@
+@import '../../../main.scss'; 
+
+.navigation {
+  height: 100vh;
+  width: 100%;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  &__item {
+    padding: 10px 30px;
+    &:hover, &:active {
+      border-left: 2px solid lighten($blue, 20%);
+      background-color: darken($blue, 5%);
+    }
+  }
+}
